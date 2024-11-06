@@ -28,14 +28,25 @@ Requisitos do exercicio
 </head>
 <body>
     <!-- Navbar -->
-     <nav class="navbar">
+     <nav class="navbar ">
         <!-- Titulo de logo containerizados -->
         <div class="d-flex justify-content-flex-start align-items-center">
             <img class="d-flex " src="./img/PaintIcon.jpg" alt="Paint icon" width="100" height="100">
             <h1>Paint Store</h1>
         </div>
         <!-- Menu navbar -->
+         <!-- Botão para aparecer com a dimensão da tela estiver reduzida(navbar-expand-lg) -->
+        <div class="navbar navbar-expand-lg">
+            <!-- Containerização do botão dentro da classe container-fluid para aplicar o justify content -->
+            <div class="container-fluid">
+                <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#responsivenavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="responsivenavbar">
 
+            </div>
+        </div>
      </nav>
 </body>
 </html>
