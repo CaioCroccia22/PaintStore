@@ -35,20 +35,18 @@ Requisitos do exercicio
      
 
     <!-- Container geral da página -->
-    <div class="container">
 
         <!-- Nav bar -> irá ocupar a linha inicial (Row) e 12 colunas -->
         <div class="row">
-
             <!-- col-lg-12 -> o elemento deve ocupar 100% da linha em telas grandes -->
              <!-- Container para selecionar toda a navbar -->
-            <nav class="navbar col-lg-12 d-flex justify-content-around align-items-center">
+            <nav class="navbar col-12 d-flex justify-content-around align-items-center bg-custom-gray">
 
 
 
                 <!-- Titulo de logo containerizados -->
                 <div class="d-flex justify-content-start align-items-center">
-                    <img src="./img/PaintIcon.jpg" alt="Paint icon" width="100" height="100">
+                    <img src="./img/PaintIcon.jpg" alt="Paint icon" width="150" height="150">
                     <h1 class="">Paint Store</h1>
                 </div>
         
@@ -81,24 +79,26 @@ Requisitos do exercicio
                 </div>
              </nav>
         </div>
-
-
         <!-- Row main content -->
-        <div class="row">
-            <div class="main-content col-12 d-flex align-items-center justify-content-around m-3">
-                <div class="col-7 p-5 m-3">
-                    <h1 class="h2">The best paint store of world</h1>
-                    <p class="paragraph">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Quas, sapiente illum totam, doloribus obcaecati debitise.
-                    </p>
-                </div>
-                <div class="col-5">
-                    <img src="./img/bucket_ico.png" alt="Icone do balde" height="400px" width="350px">
-                </div>
+        <!-- Caroussel de imagens -->
+         <div class="row">
+            <div class="col-12">
+                <div class="carousel slide mb-5" data-bs-ride="carousel" id="carousel" class="h-100">
+                    <div class="carousel-inner overlay">
+                        <div class="carousel-item active">
+                            <img src="./img/loja_tinta_1.jpg" alt="Loja de tinta" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/loja_tinta_2.jpg" alt="Loja de tinta" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/loja_tinta_3.jpg" alt="Loja de tinta" class="d-block w-100">
+                        </div>
+                    </div>
+                 </div>
+        
             </div>
-        </div>
-
+         </div>
         <!-- Row cards menu-->
          <div class="row">
             <div class="col-12">
@@ -204,12 +204,8 @@ Requisitos do exercicio
                         <p class="card-text">This is a paint bucket</p>
                     </div>
                 </div>
-
-
             </div>
         </div>
-
-    </div>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

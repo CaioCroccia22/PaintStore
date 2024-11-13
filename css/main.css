@@ -1,3 +1,41 @@
-.navbar {
+.navbar.col-lg-12.d-flex.justify-content-around.align-items-center{
     border-bottom: 1px solid black;
+}
+
+
+/* Cor de fundo navbar */
+.bg-custom-gray{
+    background-color: #f8f9fa ;
+    color: #606060;
+}
+
+/* Tirando a cor de fundo do icone */
+.bg-custom-gray img{
+    background-color: transparent;
+    border: none;
+}
+
+
+.bg-custom-gray > a{
+    background-color: #606060 ;
+    color: #fff;
+}
+
+
+/* Definindo uma altura menor para o carrossel */
+#carousel .carousel-inner{
+    height: 55vh;
+    
+}
+
+.overlay{
+    opacity: 0.5;
+    background-color: black;
+}
+
+
+/* Para os items do carrossel não fiquem com a imagem torta */
+#carousel .carousel-item img{
+    object-fit: cover;
+    height: 100%;
 }
