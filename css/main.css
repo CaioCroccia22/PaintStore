@@ -2,6 +2,10 @@
     border-bottom: 1px solid black;
 }
 
+/* Cor de fundo */
+body{
+    background-color: #dee2e6 ;
+}
 
 /* Cor de fundo navbar */
 .bg-custom-gray{
@@ -16,18 +20,13 @@
 }
 
 
-.bg-custom-gray > a{
-    background-color: #606060 ;
-    color: #fff;
-}
-
-
 /* Definindo uma altura menor para o carrossel */
 #carousel .carousel-inner{
-    height: 55vh;
+    height: 45vh;
     
 }
 
+/* Definindo opacidade do carrossel e dos cards */
 .overlay{
     filter: brightness(0.5);
 }
@@ -37,4 +36,10 @@
 #carousel .carousel-item img{
     object-fit: cover;
     height: 100%;
+}
+
+
+/* Adicionando hover de deslocamento para o menu de cards */
+.card.col-3:hover{
+    transform: scale(1.04); 
 }
