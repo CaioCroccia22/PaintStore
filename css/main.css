@@ -1,16 +1,21 @@
-.navbar.col-lg-12.d-flex.justify-content-around.align-items-center{
-    border-bottom: 1px solid black;
-}
 
 /* Cor de fundo */
 body{
-    background-color: #dee2e6 ;
+    background-color: #dee2e6;
 }
+
+
+    /* Navbar */
 
 /* Cor de fundo navbar */
 .bg-custom-gray{
     background-color: #f8f9fa ;
     color: #606060;
+}
+
+/* Definindo altura do navbar */
+.navbar{
+    height: 15vh;
 }
 
 /* Tirando a cor de fundo do icone */
@@ -20,15 +25,22 @@ body{
 }
 
 
+    /* Carrossel */
+
 /* Definindo uma altura menor para o carrossel */
 #carousel .carousel-inner{
-    height: 45vh;
+    height: 55vh;
     
 }
 
-/* Definindo opacidade do carrossel e dos cards */
+/* Definindo opacidade do carrossel */
 .overlay{
     filter: brightness(0.5);
+}
+
+/* Definindo opacidade do card */
+.overlay-card-menu{
+    filter: brightness(0.3);
 }
 
 
@@ -38,8 +50,24 @@ body{
     height: 100%;
 }
 
+    /* Card Menu */
+
+/* Definindo altura e largura para o card menu */
+.card.col-3{
+    height: 150px;
+    width: 300px;
+    
+}
 
 /* Adicionando hover de deslocamento para o menu de cards */
 .card.col-3:hover{
-    transform: scale(1.04); 
+    transform: scale(1.02); 
 }
+
+
+/* Para a imagem ocupar todo o bloco */
+.card-img{
+    object-fit: cover;
+    height: 100%;
+}
+
