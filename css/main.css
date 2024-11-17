@@ -1,21 +1,26 @@
 
 /* Cor de fundo */
 body{
-    background-color: #dee2e6;
+    background-color: #F7F7F7;
 }
 
 
+/* Cor dos textos no geral */
+.nav-link.fs-5, h1, h2, p{
+    color: #333333;
+}
+
     /* Navbar */
 
-/* Cor de fundo navbar */
-.bg-custom-gray{
-    background-color: #f8f9fa ;
-    color: #606060;
+
+    /* Definindo borda ao fim da secção */
+.navbar.col-12.d-flex.justify-content-around.align-items-center.bg-custom-gray{
+    border-bottom: #D2691E solid 3px;
 }
 
 /* Definindo altura do navbar */
 .navbar{
-    height: 15vh;
+    height: 17vh;
 }
 
 /* Tirando a cor de fundo do icone */
@@ -24,6 +29,12 @@ body{
     border: none;
 }
 
+
+
+/* Cor dos textos menu da navbar (Ativado) */
+.nav-link.active.fs-5{
+    color: #D2691E;
+}
 
     /* Carrossel */
 
@@ -52,6 +63,21 @@ body{
 
     /* Card Menu */
 
+
+/* Cores dos botões dos cards */
+.btn{
+    background-color: #D2691E;
+    color: #fff;
+}
+
+/* Hover dos botões */
+.btn:hover {
+    background-color:  #FFD580;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+    color: #333333;
+}
+
+
 /* Definindo altura e largura para o card menu */
 .card.col-3{
     height: 150px;
@@ -71,3 +97,19 @@ body{
     height: 100%;
 }
 
+/* Menu de produtos */
+
+
+/* Definindo uma delitmição para área de produtos */
+.container{
+    border: #D2691E solid 2px;
+    
+}
+
+
+/* Definindo altura e largura do card */
+.d-flex.flex-column.align-items-center.align-items-center{
+    height: 100px;
+    width: 100px;
+    
+}
