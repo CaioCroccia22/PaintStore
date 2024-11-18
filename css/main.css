@@ -63,6 +63,9 @@ body{
 
     /* Card Menu */
 
+.card-menu-content.d-flex.align-items-center.flex-row.justify-content-around.p-5{
+    border-bottom: #D2691E solid 3px;
+}
 
 /* Cores dos botões dos cards */
 .btn{
