@@ -38,43 +38,44 @@ Requisitos do exercicio
 
         <!-- Nav bar -> irá ocupar a linha inicial (Row) e 12 colunas -->
         <div class="row">
-            <!-- col-lg-12 -> o elemento deve ocupar 100% da linha em telas grandes -->
-             <!-- Container para selecionar toda a navbar -->
+           
+             <!-- Inicio da Navbar -->
             <nav class="navbar navbar-expand-lg bg-custom-gray py-3">
 
-
-
-                <!-- Titulo de logo containerizados -->
-                <div class="d-flex justify-content-start align-items-center">
-                    <img src="./img/icone_principal.png" alt="Paint icon" width="100" height="120">
-                    <h1 class="">Paint Store</h1>
-                </div>
-        
-        
-                <!-- Menu navbar -->
-                <!-- Menu navbar tela reduzida -->
-                <!-- Botão para aparecer com a dimensão da tela estiver reduzida(navbar-expand-lg) -->
-                <div class="navbar navbar-expand-lg">
-                    <!-- Containerização do botão dentro da classe container-fluid para aplicar o justify content -->
-                    <div class="">
-                        <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#responsivenavbar">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </div>
-        
-                    <!-- Menu navbar em tela grande -->
-                    <div class="collapse navbar-collapse" id="responsivenavbar">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active fs-5" href="#products">Produtos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link fs-5" href="#">Promoções</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link fs-5" href="#">Sobre nós</a>
-                            </li>
-                        </ul>
+                <!-- Containerização dos elementos -->
+                <div class="container">
+                        <!-- Titulo de logo containerizados -->
+                        <a class=" navbar-brand d-flex align-items-center">
+                            <img src="./img/icone_principal.png" alt="Paint icon" width="100" height="120">
+                            <h1 class="">Paint Store</h1>
+                        </a>
+            
+            
+                        <!-- Menu navbar -->
+                        <!-- Menu navbar tela reduzida -->
+                        <!-- Botão para aparecer com a dimensão da tela estiver reduzida(navbar-expand-lg) -->
+                        <div class="navbar navbar-expand-lg">
+                            <!-- Containerização do botão dentro da classe container-fluid para aplicar o justify content -->
+                            <div class="">
+                                <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#responsivenavbar">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </div>
+            
+                        <!-- Menu navbar em tela grande -->
+                        <div class="collapse navbar-collapse" id="responsivenavbar">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active fs-5" href="#products">Produtos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fs-5" href="#">Promoções</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fs-5" href="#">Sobre nós</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
              </nav>
