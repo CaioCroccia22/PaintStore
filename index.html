@@ -40,7 +40,7 @@ Requisitos do exercicio
         <div class="row">
             <!-- col-lg-12 -> o elemento deve ocupar 100% da linha em telas grandes -->
              <!-- Container para selecionar toda a navbar -->
-            <nav class="navbar col-12 d-flex justify-content-around align-items-center bg-custom-gray">
+            <nav class="navbar navbar-expand-lg bg-custom-gray py-3">
 
 
 
@@ -147,8 +147,8 @@ Requisitos do exercicio
             <!-- Titulo da secção -->
             <h3 class="text-center mb-4 h3">Products</h3>
 
-            <!-- Linha -->
-            <div class="row g-4">
+            <!-- Linha 1 -->
+            <div class="row g-4 mb-5">
                 <!-- Coluna  -->
                  <!-- Primeiro produto -->
                 <div class="col-lg-4 col-md-6 col-sm-12">
@@ -201,40 +201,57 @@ Requisitos do exercicio
             </div>
     
             <!-- Segunda fileira -->
-            <div class="row">
-                <div class="d-flex align-items-center justify-content-around col-lg-12 col-md-6 col-sm-1">
-    
-                    <!-- Primeiro produto -->
-                    <div class="card" style="width: 18rem;">
-                        <img src="./img/card-item.jpg" alt="" class="card-img-top">
+            <div class="row g-4">
+
+                <!-- Coluna  -->
+                 <!-- Primeiro produto -->
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card h-100">
+                        <img src="./img/card-item.jpg" alt="Tinta Azul" class="card-img-top">
                         <div class="card-body text-center">
-                            <h5 class="card-title">Tinta Azul</h5>
+                            <h5 class="card-title">
+                                Tinta Azul 
+                            </h5>
                             <p class="card-text">Tinta Azul ideal para pintar os melhores quadros</p>
-                            <a href="#" class="btn">Comprar</a>
+                            <p class="card-text">R$ 56,00</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
-    
-                    <!-- Segundo produto -->
-                    <div class="card" style="width: 18rem;">
-                        <img src="./img/card-item.jpg" alt="" class="card-img-top">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Tinta Azul</h5>
-                            <p class="card-text">Tinta Azul ideal para pintar os melhores quadros</p>
-                            <a href="#" class="btn">Comprar</a>
-                        </div>
-                    </div>
-    
-                    <!-- Terceiro produto -->
-                    <div class="card" style="width: 18rem;">
-                        <img src="./img/card-item.jpg" alt="" class="card-img-top">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Tinta Azul</h5>
-                            <p class="card-text">Tinta Azul ideal para pintar os melhores quadros</p>
-                            <a href="#" class="btn">Comprar</a>
+                </div>
+
+
+                    <!-- Segundo Produto -->
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card h-80">
+                            <img src="./img/card-item.jpg" alt="Tinta Azul" class="card-img-top">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    Tinta Azul 
+                                </h5>
+                                <p class="card-text">Tinta Azul ideal para pintar os melhores quadros</p>
+                                <p class="card-text">R$ 56,00</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
                         </div>
                     </div>
 
-                </div>
+
+                    <!-- Terceiro Produto -->
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card h-100">
+                            <img src="./img/card-item.jpg" alt="Tinta Azul" class="card-img-top">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">
+                                    Tinta Azul 
+                                </h5>
+                                <p class="card-text">Tinta Azul ideal para pintar os melhores quadros</p>
+                                <p class="card-text">R$ 56,00</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
             </div>
          </div>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
