@@ -14,26 +14,32 @@ body{
 
 
     /* Definindo borda ao fim da secção */
-.navbar.col-12.d-flex.justify-content-around.align-items-center.bg-custom-gray{
-    border-bottom: #D2691E solid 3px;
-}
 
 /* Definindo altura do navbar */
 .navbar{
     height: 17vh;
 }
 
-/* Tirando a cor de fundo do icone */
-.bg-custom-gray img{
-    background-color: transparent;
-    border: none;
+/* Alterando cor do botão da navbar (Responsivo) */
+.bg-custom-gray {
+    background-color: #f8f9fa; /* Substitua por uma cor personalizada */
 }
-
 
 
 /* Cor dos textos menu da navbar (Ativado) */
 .nav-link.active.fs-5{
     color: #D2691E;
+}
+
+/* Menu de navegação */
+
+.nav-link {
+    color: #333; /* Cor padrão dos links */
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #c77e4a; /* Cor ao passar o mouse */
 }
 
     /* Carrossel */
@@ -49,10 +55,7 @@ body{
     filter: brightness(0.5);
 }
 
-/* Definindo opacidade do card */
-.overlay-card-menu{
-    filter: brightness(0.3);
-}
+
 
 
 /* Para os items do carrossel não fiquem com a imagem torta */
@@ -61,10 +64,16 @@ body{
     height: 100%;
 }
 
+
+
+
+
     /* Card Menu */
 
-.card-menu-content.d-flex.align-items-center.flex-row.justify-content-around.p-5{
-    border-bottom: #D2691E solid 3px;
+
+/* Definindo opacidade do card */
+.overlay-card-menu{
+    filter: brightness(0.3);
 }
 
 /* Cores dos botões dos cards */
@@ -82,11 +91,11 @@ body{
 
 
 /* Definindo altura e largura para o card menu */
-.card.col-3{
+/* .card.col-3{
     height: 150px;
     width: 300px;
     
-}
+} */
 
 /* Adicionando hover de deslocamento para o menu de cards */
 .card.col-3:hover{
@@ -101,13 +110,6 @@ body{
 }
 
 /* Menu de produtos */
-
-
-/* Definindo uma delitmição para área de produtos */
-.container{
-    border: #D2691E solid 2px;
-    
-}
 
 
 /* Definindo altura e largura do card */

@@ -45,26 +45,22 @@ Requisitos do exercicio
                 <!-- Containerização dos elementos -->
                 <div class="container">
                         <!-- Titulo de logo containerizados -->
-                        <a class=" navbar-brand d-flex align-items-center">
+                        <a class="navbar-brand d-flex align-items-center" href="#">
                             <img src="./img/icone_principal.png" alt="Paint icon" width="100" height="120">
-                            <h1 class="">Paint Store</h1>
+                            <h1 class="ms-3 mb-0">Paint Store</h1>
                         </a>
             
             
                         <!-- Menu navbar -->
                         <!-- Menu navbar tela reduzida -->
                         <!-- Botão para aparecer com a dimensão da tela estiver reduzida(navbar-expand-lg) -->
-                        <div class="navbar navbar-expand-lg">
-                            <!-- Containerização do botão dentro da classe container-fluid para aplicar o justify content -->
-                            <div class="">
-                                <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#responsivenavbar">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                            </div>
-            
+                        <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#responsivenavbar"  aria-controls="responsivenavbar" aria-expanded="false" aria-label="Toogle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    
                         <!-- Menu navbar em tela grande -->
                         <div class="collapse navbar-collapse" id="responsivenavbar">
-                            <ul class="navbar-nav">
+                            <ul class="navbar-nav ms-auto">
                                 <li class="nav-item">
                                     <a class="nav-link active fs-5" href="#products">Produtos</a>
                                 </li>
@@ -105,40 +101,39 @@ Requisitos do exercicio
 
         <!-- Row cards menu-->
          <div class="row">
-            <div class="col-12">
-                <div class="card-menu-content d-flex align-items-center flex-row justify-content-around p-5">
-
+            <div class="container my-5">
+                <div class="row g-4">
                     <!-- Card Projetos -->
-                    <div class="card col-3">
-                        <img class="card-img overlay-card-menu" src="./img/card-menu-img-2.jpg" alt="Imagem do card">
-                        <div class="card-body card-img-overlay d-flex align-items-center justify-content-around">
-                            <a href="#" class="btn">Acompanhar Projetos</a>
+                    <div class="col-lg-4 col-12">
+                        <div class="card text-white">
+                            <img class="card-img overlay-card-menu" src="./img/card-menu-img-2.jpg" alt="Imagem do card">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                <a href="#" class="btn">Acompanhar Projetos</a>
+                            </div>
                         </div>
                     </div>
-
-                    <!-- Card Produtos -->
-                    <div class="card col-3">
-                        <img class="card-img overlay-card-menu" src="./img/card-menu-img-1.jpg" alt="Imagem do card">
-                        <div class="card-body card-img-overlay d-flex align-items-center justify-content-around">
-                            <a href="#" class="btn">Acompanhar Lançamentos</a>
-                        </div>
-                    </div>
-
-                     <!-- Card Promoçoes -->
-                     <div class="card col-3">
-                        <img class="card-img overlay-card-menu" src="./img/card-menu-img-3.jpg" alt="Imagem do card">
-                        <div class="card-body card-img-overlay d-flex align-items-center justify-content-around">
-                            <a href="#" class="btn">Acompanhar Promoções</a>
-                            
-                        </div>
-                    </div>
-
-
-
-                </div>
-            </div>
-                
             
+                    <!-- Card Produtos -->
+                    <div class="col-lg-4 col-12">
+                        <div class="card text-white">
+                            <img class="card-img overlay-card-menu" src="./img/card-menu-img-1.jpg" alt="Imagem do card">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                <a href="#" class="btn">Acompanhar Lançamentos</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Card Promoções -->
+                    <div class="col-lg-4 col-12">
+                        <div class="card text-white">
+                            <img class="card-img overlay-card-menu" src="./img/card-menu-img-3.jpg" alt="Imagem do card">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                <a href="#" class="btn">Acompanhar Promoções</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>       
          </div>
 
 
