@@ -70,6 +70,10 @@ body{
 
     /* Card Menu */
 
+.card{
+    border: none;
+    overflow: hidden;
+}
 
 /* Definindo opacidade do card */
 .overlay-card-menu{
@@ -80,6 +84,11 @@ body{
 .btn{
     background-color: #D2691E;
     color: #fff;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: color ease 0.3s;
+    border: none;
 }
 
 /* Hover dos botões */
