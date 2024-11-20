@@ -18,6 +18,12 @@ body{
 /* Definindo altura do navbar */
 .navbar{
     height: 17vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
+    
 }
 
 /* Alterando cor do botão da navbar (Responsivo) */
@@ -38,9 +44,18 @@ body{
     transition: color 0.3s ease;
 }
 
+
+/* Adicionar efeito quando passa o mouse nos li */
 .nav-link:hover {
     color: #c77e4a; /* Cor ao passar o mouse */
 }
+
+/* Centralizando o menu responsivo */
+.navbar-nav.ms-auto{
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
 
     /* Carrossel */
 
